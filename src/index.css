@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-secondary: #ED4192;
+  --color-primary: #1d0342;
+}
+
+.clip-custom {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 87%, 75% 87%, 75% 100%, 61% 87%, 0 86%);
+    filter: drop-shadow(0 0px 10px #ED4192);
+    box-shadow: 0 0 10px #ED4192;
+    
+  }
